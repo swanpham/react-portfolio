@@ -129,7 +129,7 @@ main{
   transition: 0.25s ease-in-out;
   border: none;
   border-radius: 10px;
-  border: 1px solid white;
+  border: 1px solid rgb(22, 22, 22);
 }
 #contact-form textarea {
   resize: none;
@@ -197,7 +197,7 @@ main{
   padding: 40px 80px 40px;
   background-color: honeydew;
   color: black;
-  opacity: 70%;
+  opacity: 80%;
   border-radius: 15px;
 }
 .about-me1{
@@ -215,8 +215,8 @@ main{
   padding: 20px 40px 20px;
   background-color: rgb(240, 235, 229);
   border-radius: 10px;
-  color: rgb(78, 54, 54);
-  opacity: 70%;
+  color: black;
+  opacity: 80%;
 }
 
 .contact-resume{
@@ -234,6 +234,7 @@ main{
   background-color: rgb(240, 235, 229);
   color: black;
   border-radius: 10px;
-  opacity: 70%;
+  opacity: 80%;
   font-size: 20px;
+  
 }
