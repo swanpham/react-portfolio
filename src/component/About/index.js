@@ -1,23 +1,82 @@
 import React from 'react'
-
+import { GrMysql } from 'react-icons/gr'
+import { FaGithub, FaReact, FaCss3Alt, FaHtml5, FaNodeJs, FaBootstrap } from 'react-icons/fa'
+import { DiMongodb, DiJavascript1, DiJqueryLogo, DiGit, DiJqueryUiLogo } from 'react-icons/di'
+import { SiAdobephotoshop, SiAdobeillustrator, SiAdobeaftereffects, SiAdobepremiere, SiMicrosoftexcel, SiGraphql } from 'react-icons/si'
+import LinkIcon from '../LinkIcon'
 
 function About() {
     return (
-      <section className="my-5" >
-      <h1>About me:</h1>
+      <main >
+      <h1 class="about-me1">About me:</h1>
       
-      <h1 id="about">Student Bootcamp: UTOR-VIRT-BO-FSF-PT-02-2021-U-B-MW</h1>
-      <h1>FULL STACK WEB DEVELOPER</h1>
+      <h3 id="about" class="about-me">
+      Welcome to my page! My name is Swan Pham, I work as an experienced professional over 10 years in Sage ERP Accpac.
+      A very self-motivated, hard-working, and ready to take on any challenge. 
+      Have great communication skills and enjoy helping others in any way possible. 
+      I love animals, Cooking and Traveling!
+      </h3>
 
-      
-      
-      
-      {/* <div className="my-2">
-        <p className="about-me">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-        </p>
-      </div> */}
-    </section>
+      <h1 class="about-me2">My Technologies:</h1>
+
+      <div class="icon-container icon-space">
+        <LinkIcon url="http://www.mysql.com">
+          <GrMysql/>
+        </LinkIcon>
+        <LinkIcon url="https://github.com/">
+          <FaGithub/>
+        </LinkIcon>
+        <LinkIcon url="https://reactjs.org/">
+          <FaReact/>
+        </LinkIcon>
+        <LinkIcon url="https://en.wikipedia.org/wiki/CSS">
+          <FaCss3Alt/>
+        </LinkIcon>
+        <LinkIcon url="https://en.wikipedia.org/wiki/HTML5">
+          <FaHtml5/>
+        </LinkIcon>
+        <LinkIcon url="https://nodejs.org/en/">
+          <FaNodeJs/>
+        </LinkIcon>
+        <LinkIcon url="https://getbootstrap.com/">
+          <FaBootstrap/>
+        </LinkIcon>
+        <LinkIcon url="https://www.mongodb.com/">
+          <DiMongodb/>
+        </LinkIcon>
+        <LinkIcon url="https://en.wikipedia.org/wiki/JavaScript">
+          <DiJavascript1/>
+        </LinkIcon>
+        <LinkIcon url="https://jquery.com/">
+          <DiJqueryLogo/>
+        </LinkIcon>
+        <LinkIcon url="https://git-scm.com/">
+          <DiGit/>
+        </LinkIcon>
+        <LinkIcon url="https://jqueryui.com/">
+          <DiJqueryUiLogo/>
+        </LinkIcon>
+        <LinkIcon url="https://www.adobe.com/ca/products/photoshopfamily.html">
+          <SiAdobephotoshop/>
+        </LinkIcon>
+        <LinkIcon url="https://www.adobe.com/ca/products/illustrator.html">
+          <SiAdobeillustrator/>
+        </LinkIcon>
+        <LinkIcon url="https://www.adobe.com/ca/products/aftereffects.html">
+          <SiAdobeaftereffects/>
+        </LinkIcon>
+        <LinkIcon url="https://www.adobe.com/ca/products/premiere.html">
+          <SiAdobepremiere/>
+        </LinkIcon>
+        <LinkIcon url="https://en.wikipedia.org/wiki/Microsoft_Excel">
+          <SiMicrosoftexcel/>
+        </LinkIcon>
+        <LinkIcon url="https://graphql.org/">
+          <SiGraphql/>
+        </LinkIcon>
+      </div>    
+               
+    </main >
     );
   }
   
