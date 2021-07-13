@@ -5,6 +5,7 @@ import About from './component/About';
 import Work from './component/Work';
 import Contact from './component/Contact';
 import Resume from "./component/Resume";
+import Footer from "./component/Footer";
 
 function App() {
 const [allLink] = useState (['About','Work', 'Contact','Resume']);
@@ -21,7 +22,7 @@ const [currentLink, setCurrentLink] = useState (allLink[0]);
         <Route  path = '/About'>
           <About/>
         </Route>
-        <Route  path = '/Portfolio'>
+        <Route  path = '/Work'>
           <Work/>
         </Route>
         <Route  path = '/Contact'>
@@ -31,6 +32,7 @@ const [currentLink, setCurrentLink] = useState (allLink[0]);
           <Resume/>
         </Route>
       </Switch>
+      <Footer/>
     </div>
   );
 }
