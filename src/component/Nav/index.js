@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 
 function Nav({currentLink, allLink, setCurrentLink}) {
     return (
-      <nav>
+      <nav id="nav-hover">
         {allLink.map((page) => (
             <Link
             to = {`/${page}`}
