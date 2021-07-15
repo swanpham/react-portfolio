@@ -10,8 +10,9 @@ header{
   justify-content: space-around;  
   border-bottom: 1px solid #ccc;
   font-size: 2em;
-  padding: 3% 2%;
+  padding: 1% 2%;
   width: 100%;    
+  flex-wrap: wrap;
 }
 
 header span {
@@ -20,18 +21,20 @@ header span {
   color: rgb(226, 223, 213);
 }
 nav a {
-  padding: 0.5rem 1rem;
+  padding: 0.1rem 0.5rem 1.2rem;
   color: rgb(226, 223, 213);
 }
 #nav-hover{
-  color-adjust: rgb(235, 165, 235);
+ display: flex;
+ width: 100%;
+ justify-content: space-around;
 }
 a{
   text-decoration: none;
   
 }
 .nav-active {
-  color: rgb(226, 223, 213);
+  color: rgb(87, 69, 11);
 }
 body{
   background-image: url("../src/assets/cover/AdobeStock_364876227-min.jpeg");
@@ -55,8 +58,8 @@ footer {
   color: #ccc;
 }
 footer svg {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 2rem;
+  width: 2rem;
 }
 footer a {
   padding: 0 0.75rem;
@@ -67,10 +70,11 @@ footer a {
   height: 100vh;
 }
 .App {
-  /* height: 100vh; */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 
@@ -80,8 +84,8 @@ footer a {
   justify-content: center;
 }
 .icon-container svg {
-  height: 3rem;
-  width: 3rem;
+  height: 2.50rem;
+  width: 2.50rem;
   margin: 0.5rem;
 }
 .link-icon:visited,
@@ -90,9 +94,17 @@ footer a {
 }
 
 main{
-  padding: 5rem 1rem;
+  flex-grow: 1;
   color: rgb(238, 236, 226);
   height: 100%;
+  background: rgb(77, 40, 77);
+  background: linear-gradient(
+    90deg,
+    rgba(77, 40, 77, 0) 0%,
+    rgba(77, 40, 77, 0.7) 20%,
+    rgba(77, 40, 77, 0.7) 80%,
+    rgba(77, 40, 77, 0) 100%
+  );
 }
 
 #contact-form-cont {
@@ -100,7 +112,9 @@ main{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 1rem;
 }
+
 #contact-form {
   width: 100%;
   display: flex;
@@ -110,7 +124,7 @@ main{
 #contact-form div {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  flex-direction: column;
   margin: 0.35rem 0;
   width: 100%;
 }
@@ -122,7 +136,7 @@ main{
 }
 #contact-form input,
 #contact-form textarea {
-  flex: 10;
+ width: 100%;
   padding: 1rem;
   outline: none;
   background-color: white;
@@ -136,13 +150,12 @@ main{
 }
 #contact-submit {
   background-color: rgba(248, 245, 245, 1);
-  
-  padding: 0.5rem 1rem;
+  padding: 6px 1rem;
   border-radius: 10px;
   font-size: 20px;
-  border-color: rgb(241, 239, 243);
-
+  border:2px solid rgb(241, 239, 243);
 }
+
 #contact-submit:hover{
   background-color: rgb(190, 162, 216);
 }
@@ -153,7 +166,8 @@ main{
   justify-content: space-around;
 }
 .work-container {
-  width: 45%;
+  flex-basis: 90%;
+  width: 100%;
   height: 18rem;
   display: flex;
   flex-direction: column;
@@ -161,9 +175,22 @@ main{
   position: relative;
   background-color: lightgray;
   border-radius: 0.5rem;
-  overflow: hidden;  
+  overflow: hidden;
   margin: 1rem;
-  
+}
+.work-container svg {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.25rem;
+  color: black;
+}
+.work-container a{
+  margin: 0 0.5rem;
+}
+.project-content {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(225, 255, 255, 0.7);
 }
 .work-title {
   position: absolute;
@@ -172,34 +199,52 @@ main{
   font-size: 1.5rem;
   color: white;
 }
-.work-image-link {
-  overflow: hidden;
-  width: 100%;
-  flex-shrink: 1;
-  height: auto;
-}
-.work-image-link img {
-  width: 100%;
+.work-container img {
+  height: 100%;
   object-fit: cover;
 }
 .work-desc,
-.work-github {
-  flex-shrink: 0;
+.work-github,
+.work-deployed {
   padding: 0.25rem 0.5rem;
   color: black;
   font-size: 0.9rem;
 }
-.work-github {
-  border-top: 1px solid black;
+.project-content {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
 }
 
-.about-me{
-  padding: 40px 80px 40px;
-  background-color: honeydew;
+.about-me, 
+.resume-form,
+.contact-form{
+  
+  background-color: rgba(240,255,240,.7);
   color: black;
-  opacity: 80%;
-  border-radius: 15px;
+  border-radius: 0px;
 }
+
+.about-me, 
+.resume-form
+{
+  padding: 20px;
+  
+}
+.resume-form a{
+  color: rgb(49, 41, 24);
+}
+
+.contact-form
+{
+  padding: 20px 20px 4px;
+  
+}
+
 .about-me1{
   padding: 5px 0px 20px;
 }
@@ -209,14 +254,6 @@ main{
 }
 .about-me2{
   padding: 20px 0px 10px;
-}
-
-.resume-form{
-  padding: 20px 40px 20px;
-  background-color: rgb(240, 235, 229);
-  border-radius: 10px;
-  color: black;
-  opacity: 80%;
 }
 
 .contact-resume{
@@ -229,12 +266,71 @@ main{
   padding-bottom: 25px;
 }
 
-.contact-form {
-  padding: 10px 0px 20px;
-  background-color: rgb(240, 235, 229);
-  color: black;
-  border-radius: 10px;
-  opacity: 80%;
+.error-text {
   font-size: 20px;
-  
+  padding: 8px 1rem;
+}
+.resume-link {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 0.5rem 0;
+  margin-top: 1rem;
+}
+.resume-link a {
+  display: flex;
+  align-items: center;
+  flex-grow: 0;
+  width: auto;
+  color: black;
+  background-color: rgba(240,255,240,.7);
+  border-radius: 15px;
+}
+
+.resume-link a:hover{
+  color: rgb(90, 85, 41);
+}
+
+.resume-link svg {
+  margin-right: 0.5rem;
+}
+
+@media screen and (min-width:760px){
+  header{
+    padding: 3% 2%;
+    flex-wrap: nowrap;
+  }  
+  nav a {
+    padding: 0.5rem 1rem;    
+    font-size: 2rem;
+  }
+  #nav-hover{
+    display:block;
+    width: auto;
+  }
+  main{
+    padding: 5rem 5rem;   
+  }
+  .about-me, 
+  .resume-form
+  {
+    padding: 40px 80px;
+    
+  }
+  .about-me, 
+  .resume-form,
+  .contact-form{
+    
+   border-radius: 15px;
+  }
+  .work-container {
+    flex-basis: 45%;
+    width: 100%;
+  }
+  .contact-form
+  {
+    padding: 40px 80px 4px;
+    
+  }
+
 }
