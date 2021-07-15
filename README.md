@@ -1,9 +1,9 @@
 # React Portfolio
 
-## AS A developer who writes about tech
+## AS AN employer looking for candidates with experience building single-page applications
 
-  * I WANT a CMS-style blog site
-  * SO THAT I can publish articles, blog posts, and my thoughts and opinions
+  * I WANT to view a potential employee's deployed React portfolio of work samples
+  * SO THAT I can assess whether they're a good candidate for an open position
   
 ## Screenshot
 
