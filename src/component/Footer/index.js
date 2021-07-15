@@ -8,10 +8,10 @@ function Footer() {
       <LinkIcon url="https://github.com/swanpham">
         <FaGithub/>
       </LinkIcon>
-      <LinkIcon url="http://www.linkedin.com/*">
+      <LinkIcon url="https://www.linkedin.com/in/swan-pham-9428aa206/">
         <FaLinkedin/>
       </LinkIcon>
-      <LinkIcon url="http://www.stackoverflow.com/*">
+      <LinkIcon url="https://stackexchange.com/users/20722994/swan-pham">
         <FaStackOverflow/>
       </LinkIcon>
       </div>
