@@ -12,7 +12,7 @@
 
 ## Deploy site
 
-https://swanpham.github.io/react-portfolio/#/react-portfolio/About
+[Swan's Portfolio](https://swanpham.github.io/react-portfolio/#/react-portfolio/About)
  
 ## Built With
 
