@@ -7,10 +7,12 @@
   
 ## Screenshot
 
+![image](https://user-images.githubusercontent.com/78882909/125869959-99061079-491d-4bf7-9ba9-01da237b0297.png)
 
 
 ## Deploy site
 
+https://swanpham.github.io/react-portfolio/#/react-portfolio/About
  
 ## Built With
 
