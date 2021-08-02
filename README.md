@@ -7,8 +7,7 @@
   
 ## Screenshot
 
-![image](https://user-images.githubusercontent.com/78882909/125869959-99061079-491d-4bf7-9ba9-01da237b0297.png)
-
+![image](https://user-images.githubusercontent.com/78882909/127795920-96c6c260-39ef-4ecb-a348-53c20c4693b3.png)
 
 ## Deploy site
 
