@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.9b3ec01a.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.a7e76861.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.a7e76861.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.16acb76f.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.f190eb32.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.f190eb32.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
     "static/js/2.6977af92.chunk.js": "/react-portfolio/static/js/2.6977af92.chunk.js",
     "static/js/2.6977af92.chunk.js.map": "/react-portfolio/static/js/2.6977af92.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.9b3ec01a.chunk.css.map": "/react-portfolio/static/css/main.9b3ec01a.chunk.css.map",
+    "static/css/main.16acb76f.chunk.css.map": "/react-portfolio/static/css/main.16acb76f.chunk.css.map",
     "static/js/2.6977af92.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.6977af92.chunk.js.LICENSE.txt",
     "static/media/AdobeStock_146861973-min.jpeg": "/react-portfolio/static/media/AdobeStock_146861973-min.d3ed9d99.jpeg",
-    "static/media/AdobeStock_146861973-min.jpg@360.jpg": "/react-portfolio/static/media/AdobeStock_146861973-min.jpg@360.e7156b8b.jpg",
+    "static/media/AdobeStock_146861973-min.jpg@360.jpg": "/react-portfolio/static/media/AdobeStock_146861973-min.jpg@360.2f3d676c.jpg",
     "static/media/AdobeStock_219251301-min.jpeg": "/react-portfolio/static/media/AdobeStock_219251301-min.82c4b2d1.jpeg",
     "static/media/AdobeStock_219251301-min.jpg@360.jpg": "/react-portfolio/static/media/AdobeStock_219251301-min.jpg@360.1b36a7f3.jpg",
     "static/media/AdobeStock_222621601-min.jpeg": "/react-portfolio/static/media/AdobeStock_222621601-min.cd16bd6f.jpeg",
@@ -20,6 +20,7 @@
     "static/media/AdobeStock_330629156-min.jpg@360.jpg": "/react-portfolio/static/media/AdobeStock_330629156-min.jpg@360.7a4750f8.jpg",
     "static/media/AdobeStock_361043370-min.jpeg": "/react-portfolio/static/media/AdobeStock_361043370-min.d28cee4d.jpeg",
     "static/media/AdobeStock_361043370-min.jpg@360.jpg": "/react-portfolio/static/media/AdobeStock_361043370-min.jpg@360.d332173b.jpg",
+    "static/media/AdobeStock_364554519.jpg@1200.jpg": "/react-portfolio/static/media/AdobeStock_364554519.jpg@1200.dd74dced.jpg",
     "static/media/AdobeStock_364876227-min.jpeg": "/react-portfolio/static/media/AdobeStock_364876227-min.fb1dce33.jpeg",
     "static/media/AdobeStock_435383639-min.jpeg": "/react-portfolio/static/media/AdobeStock_435383639-min.291a9377.jpeg",
     "static/media/AdobeStock_435383639-min.jpg@360.jpg": "/react-portfolio/static/media/AdobeStock_435383639-min.jpg@360.bf48e7f0.jpg",
@@ -29,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.872b2f22.js",
     "static/js/2.6977af92.chunk.js",
-    "static/css/main.9b3ec01a.chunk.css",
-    "static/js/main.a7e76861.chunk.js"
+    "static/css/main.16acb76f.chunk.css",
+    "static/js/main.f190eb32.chunk.js"
   ]
 }
