@@ -8,18 +8,18 @@ import LinkIcon from '../LinkIcon'
 function About() {
     return (
       <main >
-      <h1 class="about-me1">About me:</h1>
+      <h1 className="about-me1">About me:</h1>
       
-      <h3 id="about" class="about-me">
+      <h3 id="about" className="about-me">
       Welcome to my page! My name is Swan Pham, I work as an experienced professional over 10 years in Sage ERP Accpac.
       A very self-motivated, hard-working, and ready to take on any challenge. 
       Have great communication skills and enjoy helping others in any way possible. 
       I love animals, Cooking and Traveling!
       </h3>
 
-      <h1 class="about-me2">My Technologies:</h1>
+      <h1 className="about-me2">My Technologies:</h1>
 
-      <div class="icon-container icon-space">
+      <div className="icon-container icon-space">
         <LinkIcon url="http://www.mysql.com">
           <GrMysql/>
         </LinkIcon>

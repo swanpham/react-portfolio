@@ -34,10 +34,10 @@ a{
   
 }
 .nav-active {
-  color: rgb(87, 69, 11);
+  color: rgb(134, 136, 18);
 }
 body{
-  background-image: url("../src/assets/cover/AdobeStock_364876227-min.jpeg");
+  background-image: url("../src/assets/cover/AdobeStock_146861973-min.jpg@360.jpg");
   
   background-size: cover;
   
@@ -74,7 +74,14 @@ footer a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+  background: rgb(77, 40, 77);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 7, 15, 0) 0%,
+    rgba(2, 3, 24, 0.5) 20%,
+    rgba(4, 3, 29, 0.5) 80%,
+    rgba(3, 4, 14, 0) 100%
+  );
 }
 
 
@@ -97,14 +104,14 @@ main{
   flex-grow: 1;
   color: rgb(238, 236, 226);
   height: 100%;
-  background: rgb(77, 40, 77);
+  /* background: rgb(77, 40, 77);
   background: linear-gradient(
     90deg,
-    rgba(77, 40, 77, 0) 0%,
-    rgba(77, 40, 77, 0.7) 20%,
-    rgba(77, 40, 77, 0.7) 80%,
+    rgba(224, 219, 224, 0) 0%,
+    rgba(226, 221, 226, 0.7) 20%,
+    rgba(212, 205, 212, 0.7) 80%,
     rgba(77, 40, 77, 0) 100%
-  );
+  ); */
 }
 
 #contact-form-cont {
@@ -184,20 +191,23 @@ main{
   padding: 0.25rem;
   color: black;
 }
-.work-container a{
-  margin: 0 0.5rem;
-}
-.project-content {
-  position: absolute;
-  width: 100%;
-  background-color: rgba(225, 255, 255, 0.7);
-}
+
+
 .work-title {
   position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
   font-size: 1.5rem;
   color: white;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0.5) 40%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 .work-container img {
   height: 100%;
@@ -212,19 +222,31 @@ main{
 }
 .project-content {
   position: absolute;
-  bottom: 2rem;
+  bottom: 1rem;
   left: 0;
   right: 0;
   display: flex;
-  flex-wrap: wrap;
-  border-radius: 10px;
+  flex-wrap: wrap;  
+  width: 100%;  
+}
+.project-content a {
+  padding: 0.25rem 0.5rem;
+  background-color: rgba(225, 255, 255, 0.9);
+  border-radius: 0 10px 0 0;
+}
+.project-content a:first-child {
+  border-radius: 10px 0 0 0;
+}
+.work-desc {
+  border-radius: 0 10px 10px 10px;
+  background-color: rgba(225, 255, 255, 0.9);
 }
 
 .about-me, 
 .resume-form,
 .contact-form{
   
-  background-color: rgba(240,255,240,.7);
+  background-color: rgba(240,255,240,.9);
   color: black;
   border-radius: 0px;
 }
