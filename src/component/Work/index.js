@@ -5,7 +5,7 @@ function Work() {
     { 
       title: 'Random-eyes', 
       url: 'https://randomeyes.herokuapp.com/', 
-      image: 'Capture.JPG', 
+      image: 'AdobeStock_364554519.jpg@1200.jpg', 
       description: 'Randomeyes is a contemporary MERN application that blends aspects of e-commerce sites like Amazon with dating apps like Bumble. Users “swipe” through high-quality products that are sure to amaze', 
       github: 'https://github.com/Brentsa/random-eyes', 
     },
