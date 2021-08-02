@@ -3,6 +3,13 @@ import Project from "../Project";
 function Work() {
   const projects = [
     { 
+      title: 'Random-eyes', 
+      url: 'https://randomeyes.herokuapp.com/', 
+      image: 'Capture.JPG', 
+      description: 'Randomeyes is a contemporary MERN application that blends aspects of e-commerce sites like Amazon with dating apps like Bumble. Users “swipe” through high-quality products that are sure to amaze', 
+      github: 'https://github.com/Brentsa/random-eyes', 
+    },
+    { 
       title: 'The Tech Blog', 
       url: 'https://swan-tech-blog.herokuapp.com/', 
       image: 'AdobeStock_435383639-min.jpg@360.jpg', 
@@ -31,13 +38,13 @@ function Work() {
       description: 'AS A small business owner I WANT to be able to write and save notes SO THAT I can organize my thoughts and keep track of tasks I need to complete', 
       github: 'https://github.com/swanpham/note-taker', 
     },
-    { 
-      title: 'Code Quiz', 
-      url: 'https://swanpham.github.io/quizchallenge/', 
-      image: 'AdobeStock_146861973-min.jpg@360.jpg', 
-      description: 'AS A coding bootcamp student, I WANT to take a timed quiz on JavaScript fundamentals that stores high scores SO THAT I can gauge my progress compared to my peers', 
-      github: 'https://github.com/swanpham/quizchallenge', 
-    },
+    // { 
+    //   title: 'Code Quiz', 
+    //   url: 'https://swanpham.github.io/quizchallenge/', 
+    //   image: 'AdobeStock_146861973-min.jpg@360.jpg', 
+    //   description: 'AS A coding bootcamp student, I WANT to take a timed quiz on JavaScript fundamentals that stores high scores SO THAT I can gauge my progress compared to my peers', 
+    //   github: 'https://github.com/swanpham/quizchallenge', 
+    // },
     
     { 
       title: 'Weather Dashboard', 
